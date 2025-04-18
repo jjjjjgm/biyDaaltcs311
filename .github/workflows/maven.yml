@@ -19,6 +19,5 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn -B package --file /home/runner/work/biyDaaltcs311/biyDaaltcs311/pom.xml
-    - name: Run Maven site
-      run: mvn site
+      run: mvn -B package --file flashcard/pom.xml
+  
